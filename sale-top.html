@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025空调品牌排行榜 | 前十排名型号及购买指南</title>
+    <meta name="description" content="2025年1-5月空调十大品牌排名，包含格力、美的、海尔等品牌的产品介绍、官网链接及京东购买渠道，提供空调选购及使用指南">
+    <meta name="keywords" content="空调排名,空调型号,空调型号排名,2025空调排行榜,空调品牌,空调选购指南,空调品牌前十,格力空调,美的空调,海尔空调">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #2E5A88;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-bottom: 15px;
+            color: #2E5A88;
+        }
+
+        .month-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .month-tab {
+            padding: 10px 20px;
+            background-color: #e0e0e0;
+            margin: 0 5px 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+
+        .month-tab.active {
+            background-color: #2E5A88;
+            color: white;
+        }
+
+        .page-head {
+            color: #fff !important;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2E5A88;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        a {
+            color: #2E5A88;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .buy-btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .buy-btn-hide {
+            /* display: none; */
+        }
+
+        .buy-btn:hover {
+            background-color: #3e8e41;
+            text-decoration: none;
+        }
+
+        .technical-articles {
+            margin-top: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .article {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .article:last-child {
+            border-bottom: none;
+        }
+
+        .aircon-top10 {
+            font-family: Arial;
+            max-width: 800px;
+            padding: 0 10px;
+            margin: auto;
+        }
+
+        .aircon-item {
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease; /* 添加过渡效果 */
+        }
+        .aircon-item .right{
+            text-align: right;
+        }
+        .aircon-item a{
+            display: inline-block;
+            width: 60px;
+            height: 25x;
+            border-radius: 5px;
+            line-height: 25px;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: .8em;
+        }
+        .aircon-item:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+            cursor: pointer;
+        }
+
+        .rank-1 {
+            border-left: 4px solid #ffd700;
+        }
+
+        .rank-2 {
+            border-left: 4px solid #c0c0c0;
+        }
+
+        .rank-3 {
+            border-left: 4px solid #cd7f32;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* 移动端适配 */
+        @media screen and (max-width: 767px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+
+            th,
+            td {
+                padding: 8px 10px;
+                font-size: 0.9rem;
+            }
+
+            .month-tab {
+                padding: 8px 15px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            table {
+                display: block;
+            }
+
+            thead {
+                display: none;
+            }
+
+            tr {
+                display: block;
+                margin-bottom: 15px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+
+            td {
+                display: flex;
+                justify-content: space-between;
+                padding: 8px;
+                border-bottom: 1px solid #eee;
+            }
+
+            td:before {
+                content: attr(data-label);
+                font-weight: bold;
+                margin-right: 10px;
+            }
+
+            td:last-child {
+                border-bottom: none;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "格力(GREE)空调",
+            "url": "https://www.gree.com.cn/",
+            "description": "中国领先的空调品牌，以技术创新和高效节能著称"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "美的(Midea)空调",
+            "url": "https://www.midea.com/cn/",
+            "description": "全球领先的家电品牌，提供多种空调产品选择"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Product",
+            "name": "海尔(Haier)空调",
+            "url": "https://www.haier.com/cn/",
+            "description": "国际知名的家电品牌，以智能化和创新设计闻名"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="page-head">2025空调型号销售排行榜</h1>
+            <p>最新前十排名型号销售指南</p>
+        </div>
+    </header>
+    <div class="aircon-top10">
+        <h2>京东空调销量TOP10排行榜（2025年5月）</h2>
+
+        <!-- 第1名 -->
+        <div class="aircon-item rank-1">
+            <h3>1. 格力天仪 1.5匹（KFR-35GW/(35504)FNhAa-B1）</h3>
+            <p><strong>核心卖点：</strong>新一级能效APF5.28，56℃高温自清洁，10年质保，国补后价1999元</p>
+            <p><strong>销量数据：</strong>京东评论超50万条，五一期间销量冠军</p>
+            <p class="right"> <a href="https://u.jd.com/DGlK8ir" target="_blank"  class="">查看</a></p>
+        </div>
+
+        <!-- 第2名 -->
+        <div class="aircon-item rank-2">
+            <h3>2. 美的酷省电Pro 1.5匹（KFR-35GW/N8KS1-1）</h3>
+            <p><strong>核心卖点：</strong>ECO省电模式节能25%，8小时耗电1.1度，京东月销超5万台</p>
+            <p><strong>销量数据：</strong>京东自营好评率99%，双十一单品销量冠军</p>
+            <p class="right"> <a href="https://u.jd.com/DGlIUNb" target="_blank"  class="">查看</a></p>
+        </div>
+
+        <!-- 第3名 -->
+        <div class="aircon-item rank-3">
+            <h3>3. 小米米家巨省电 1.5匹（KFR-35GW/N1A1）</h3>
+            <p><strong>核心卖点：</strong>新一级能效，支持米家APP联动，国补20%后性价比突出</p>
+            <p><strong>销量数据：</strong>京东评论超200万条，年轻用户首选机型</p>
+            <p class="right"> <a href="https://u.jd.com/DOJh5nP" target="_blank"  class="">查看</a></p>
+        </div>
+
+        <!-- 第4名 -->
+        <div class="aircon-item rank-4">
+            <h3>4. TCL真省电SE 1.5匹（KFR-35GW/JD21+B1）</h3>
+            <p><strong>核心卖点：</strong>京东联名款，双排冷凝器+电子膨胀阀，支持以旧换新</p>
+            <p><strong>销量数据：</strong>京东专属型号，评论超20万条</p>
+            <p class="right"> <a href="https://u.jd.com/DrJcy7h" target="_blank"  class="">查看</a></p>
+        </div>
+
+        <!-- 第5名 -->
+        <div class="aircon-item rank-5">
+            <h3>5. 华凌超省电Pro 1.5匹（KFR-35GW/N8HA1Ⅲ-P）</h3>
+            <p><strong>核心卖点：</strong>APF5.3能效，美芝压缩机，主打租房市场</p>
+            <p><strong>销量数据：</strong>京东"神价"机型，评论超20万条</p>
+            <p class="right"> <a href="https://u.jd.com/DaJ7rqa" target="_blank"  class="">查看</a></p>
+        </div>
+
+        <!-- 第6名 -->
+        <div class="aircon-item rank-6">
+            <h3>6. 海尔小红花绽放版 1.5匹（KFR-35GW/E1-1）</h3>
+            <p><strong>核心卖点：</strong>萌系珊瑚粉设计，防直吹+柔风模式，女性用户首选</p>
+            <p><strong>销量数据：</strong>京东母婴群体好评率98%</p>
+            <p class="right"> <a href="https://u.jd.com/DrJju1s" target="_blank"  class="">查看</a></p>
+        </div>
+
+        <!-- 第7名 -->
+        <div class="aircon-item rank-7">
+            <h3>7. 统帅超省电Max 1.5匹（KFR-35GW/LA1-1）</h3>
+            <p><strong>核心卖点：</strong>海尔旗下性价比机型，双排铜管配置</p>
+            <p><strong>销量数据：</strong>京东评论超20万条</p>
+            <p class="right"> <a href="https://u.jd.com/DDltd8Q" target="_blank"  class="">查看</a></p>
+        </div>
+
+        <!-- 第8名 -->
+        <div class="aircon-item rank-8">
+            <h3>8. 奥克斯省电侠 1.5匹（KFR-35GW/BpR3AQS1(B1)）</h3>
+            <p><strong>核心卖点：</strong>ECO节能技术，680m³/h大风量</p>
+            <p><strong>销量数据：</strong>京东限时补贴价1223元起</p>
+            <p class="right"> <a href="https://u.jd.com/D6JFjuW" target="_blank"  class="">查看</a></p>
+        </div>
+
+        <!-- 第9名 -->
+        <div class="aircon-item rank-9">
+            <h3>9. 格力云锦三代 1.5匹（KFR-35GW/NhMa1BG）</h3>
+            <p><strong>核心卖点：</strong>冷酷外机技术，-35℃~60℃宽温域运行</p>
+            <p><strong>销量数据：</strong>京东月销超2万台</p>
+            <p class="right"> <a href="https://u.jd.com/DGlttJp" target="_blank"  class="">查看</a></p>
+        </div>
+
+        <!-- 第10名 -->
+        <div class="aircon-item rank-10">
+            <h3>10. 美的无风感Pro 1.5匹（KFR-35GW/N8WF1）</h3>
+            <p><strong>核心卖点：</strong>棱镜散流技术避免直吹，静音18分贝</p>
+            <p><strong>销量数据：</strong>京东母婴家庭爆款</p>
+            <p class="right"> <a href="https://u.jd.com/DDldnst" target="_blank"  class="">查看</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2025 空调品牌排行榜</p>
+    </footer>
+</body>
+
+</html>
